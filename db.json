@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "dml",
+      "email": "dml@dml",
+      "password": "dml",
+      "id": "4fjg7czdl7ptphw5"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Карта СБЕР",
+      "user_id": "4fjg7czdl7ptphw5",
+      "id": "4fjg7czdl7ptq0o0"
+    },
+    {
+      "name": "Карта ВТБ",
+      "user_id": "4fjg7czdl7ptphw5",
+      "id": "4fjg7czdl7ptq975"
+    },
+    {
+      "name": "Наличка",
+      "user_id": "4fjg7czdl7ptphw5",
+      "id": "4fjg7czdl7ptqerk"
+    },
+    {
+      "name": "Заначка",
+      "user_id": "4fjg7czdl7ptphw5",
+      "id": "4fjg7g9dl7pwizfv"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "4fjg7g9dl7pwjj8m",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 100000,
+      "account_id": "4fjg7czdl7ptq975",
+      "user_id": "4fjg7czdl7ptphw5",
+      "created_at": "2022-09-06T08:00:35.878Z"
+    },
+    {
+      "id": "4fjg7g9dl7pwjxlj",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 50000,
+      "account_id": "4fjg7czdl7ptq0o0",
+      "user_id": "4fjg7czdl7ptphw5",
+      "created_at": "2022-09-06T08:00:54.487Z"
+    },
+    {
+      "id": "4fjg7g9dl7pwkpa9",
+      "type": "income",
+      "name": "Сбор дани с окрестных деревень",
+      "sum": 20000,
+      "account_id": "4fjg7czdl7ptqerk",
+      "user_id": "4fjg7czdl7ptphw5",
+      "created_at": "2022-09-06T08:01:30.369Z"
+    },
+    {
+      "id": "4fjg7g9dl7pwlitb",
+      "type": "income",
+      "name": "Оставил сдачу",
+      "sum": 30.56,
+      "account_id": "4fjg7g9dl7pwizfv",
+      "user_id": "4fjg7czdl7ptphw5",
+      "created_at": "2022-09-06T08:02:08.639Z"
+    },
+    {
+      "id": "4fjg7g9dl7pwly25",
+      "type": "expense",
+      "name": "Купил жене сапоги",
+      "sum": 12000,
+      "account_id": "4fjg7czdl7ptq975",
+      "user_id": "4fjg7czdl7ptphw5",
+      "created_at": "2022-09-06T08:02:28.397Z"
+    }
+  ]
+}
